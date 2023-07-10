@@ -6,8 +6,10 @@ const Navbar = () => {
             <h1>Prodigy Hires</h1>
             <div className="links">
                 <a href="/">Home</a>
+                <span> | </span>
                 <a href="/SignIn">Sign In</a>
-                <a href="/SignUp">Sign Up</a>
+                <span></span>
+                <a href="/Register">Register</a>
             </div>
         </nav>
     )

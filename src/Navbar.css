@@ -1,30 +1,43 @@
 .navBar {
-    padding: 20px;
-    max-width: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
-    border-bottom: 1px solid #333;
-  }
-  
-  .navBar h1 {
-    color: #ddd3d3;
-    background-color: transparent;
-    font-weight: bold;
-    font-size: 30px;
-  }
+  padding: 20px;
+  max-width: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  border-bottom: 1px solid #333;
+}
 
-  .links a {
-    font-size: 20px;
-    color: #ddd3d3;
-    background-color: rgba(0, 0, 0, 0.8);
-    text-decoration: none;
-    border-bottom: 1px solid transparent;
-  }
+.navBar h1 {
+  color: #ddd3d3;
+  background-color: transparent;
+  font-weight: bold;
+  font-size: 35px;
+}
 
-  .links a:hover {
-    background-color: #3a3939;
-    text-decoration: underline;
-  }
+.navBar .links {
+  margin-left: auto;
+}
 
+.links a {
+  font-size: 24px;
+  color: #ddd3d3;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-bottom: 1px solid transparent;
+}
+
+.links span {
+  font-size: 24px;
+  color: #ddd3d3;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-bottom: 1px solid transparent;
+  padding: 0 10px;
+} 
+
+.links a:hover {
+  background-color: #3a3939;
+  text-decoration: underline;
+}
